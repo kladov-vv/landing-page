@@ -13,17 +13,27 @@ body {
 }
 
 .header,
-
+.info,
+.quote-card,
+.sign-up,
+.footer {
+    padding: 0 10%;
+    flex: 1 0 auto
+}
 
 .header,
-.hero,
 .footer {
     background-color: #1F2937;
     color: #f9faf8
 }
 
-.header {
-    
+.info,
+.sign-up {
+    background-color: #eee;
+}
+
+.quote-card {
+    background-color: #e5e7eb;
 }
 
 .logo {
@@ -40,18 +50,10 @@ body {
     color: #e5e7eb;
 }
 
-.info,
-.sign-up {
-    background-color: #eee;
-}
-
+\
 .info h2 {
     font-size: 36px;
     font-weight: extra-bold;
-}
-
-.quote-card {
-    background-color: #e5e7eb;
 }
 
 .em {
