@@ -17,7 +17,7 @@ body {
 .quote-card,
 .sign-up,
 .footer {
-    padding: 0 10%;
+    padding: 0 20%;
     flex: 1 0 auto
 }
 
@@ -27,17 +27,28 @@ body {
     color: #f9faf8
 }
 
-.info,
-.sign-up {
-    background-color: #eee;
-}
-
-.quote-card {
-    background-color: #e5e7eb;
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
+}
+
+ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2ch;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 .hero-left h1 {
@@ -50,7 +61,16 @@ body {
     color: #e5e7eb;
 }
 
-\
+.info,
+.sign-up {
+    background-color: #eee;
+}
+
+.quote-card {
+    background-color: #e5e7eb;
+}
+
+
 .info h2 {
     font-size: 36px;
     font-weight: extra-bold;
