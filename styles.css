@@ -4,4 +4,28 @@
     header: 0;
 }
 
-.header
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.info,
+.sign-up {
+    background-color: #eee;
+}
+
+.quote-card {
+    background-color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
