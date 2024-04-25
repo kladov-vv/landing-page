@@ -13,6 +13,7 @@ body {
 }
 
 .header,
+.hero,
 .info,
 .quote-card,
 .sign-up,
@@ -22,6 +23,7 @@ body {
 }
 
 .header,
+.hero,
 .footer {
     background-color: #1F2937;
     color: #f9faf8
@@ -29,7 +31,6 @@ body {
 
 .header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -51,6 +52,16 @@ a {
     text-decoration: none;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 2ch;
+}
+
+.hero-left {
+
+}
+
 .hero-left h1 {
     font-size: 48px;
     font-weight: bold;
@@ -59,6 +70,24 @@ a {
 .hero-left p {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 1ch 0;
+}
+
+.hero-left button {
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #eee;
+    padding: 1ch 3ch;
+    border: none;
+    border-radius: 1ch;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+    background-color: #808080;
 }
 
 .info,
