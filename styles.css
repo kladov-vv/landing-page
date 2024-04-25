@@ -13,7 +13,6 @@ body {
 }
 
 .header,
-.hero,
 .info,
 .quote-card,
 .sign-up,
@@ -23,7 +22,6 @@ body {
 }
 
 .header,
-.hero,
 .footer {
     background-color: #1F2937;
     color: #f9faf8
@@ -31,6 +29,7 @@ body {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -55,7 +54,10 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    gap: 2ch;
+    gap: 3ch;
+
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
 }
 
 .hero-left {
@@ -95,7 +97,7 @@ a {
     background-color: #eee;
 }
 
-.quote-card {
+.card {
     background-color: #e5e7eb;
 }
 
