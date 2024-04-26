@@ -14,11 +14,11 @@ body {
 
 .header,
 .info,
-.quote-card,
+.card,
 .sign-up,
 .footer {
-    padding: 0 20%;
-    flex: 1 0 auto
+    flex: auto;
+    padding: 0 15%;
 }
 
 .header,
@@ -32,6 +32,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 
 .logo {
@@ -66,13 +69,13 @@ a {
 
 .hero-left h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .hero-left p {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 1ch 0;
+    margin: 1rem 0;
 }
 
 .hero-left button {
