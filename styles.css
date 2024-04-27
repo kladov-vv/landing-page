@@ -61,10 +61,6 @@ a {
     gap: 3rem;
 }
 
-.hero-left {
-
-}
-
 .hero-left h1 {
     font-size: 48px;
     font-weight: 800;
@@ -73,23 +69,26 @@ a {
 .hero-left p {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 1rem 0;
+    margin: .5rem 0 1rem 0;
 }
 
 .hero-left button {
+    font-size: 18px;
     font-weight: bold;
-    background-color: #3882f6;
     color: #eee;
-    padding: 1ch 3ch;
+    background-color: #3882f6;
+    padding: .5rem 2rem;
     border: none;
-    border-radius: 1ch;
+    border-radius: .5rem;
 }
 
 .hero-right {
+    flex: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 50%;
+    min-height: 20%;
     background-color: #808080;
 }
 
