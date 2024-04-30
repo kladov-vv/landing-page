@@ -47,7 +47,7 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    column-gap: 1rem;
+    column-gap: 2rem;
 }
 
 a {
@@ -88,8 +88,8 @@ a {
     justify-content: center;
     align-items: center;
     min-width: 50%;
-    min-height: 20%;
-    background-color: #808080;
+    min-height: 25%;
+    background-color: #7c838b;
 }
 
 .info,
