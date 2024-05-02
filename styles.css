@@ -87,9 +87,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     min-width: 50%;
     min-height: 25%;
-    background-color: #7c838b;
+    background-color: #7c838b;;
 }
 
 .info,
@@ -110,12 +111,14 @@ a {
 .images {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-top: 3rem;
 }
 
 .image {
-    flex: auto;
+    flex: initial;
+    max-width: min-content;
 }
 
 img {
