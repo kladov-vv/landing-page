@@ -135,13 +135,19 @@ img {
 
 .card {
     background-color: #e5e7eb;
-
+    padding: 6rem 25% 5rem 25%;
 }
 
-.em {
+.quote {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: end;
 }
 
