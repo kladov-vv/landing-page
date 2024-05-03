@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 100svh;
 }
 
 .header,
@@ -68,6 +68,11 @@ a {
     padding-bottom: 8rem;
 }
 
+.hero-left {
+    flex: auto;
+    /* width: 40%; */
+}
+
 .hero-left h1 {
     font-size: 48px;
     font-weight: 800;
@@ -79,19 +84,14 @@ a {
     margin: .5rem 0 1rem 0;
 }
 
-.hero-left button {
+button {
     font-size: 18px;
     font-weight: bold;
-    color: #eee;
+    color: #fff;
     background-color: #3882f6;
-    padding: .5rem 2rem;
+    padding: .5rem 2.5rem;
     border: none;
     border-radius: .5rem;
-}
-
-.hero-left {
-    flex: auto;
-    width: 45%;
 }
 
 .hero-right {
@@ -101,30 +101,31 @@ a {
     align-items: center;
     text-align: center;
     background-color: #7c838b;
-    width: 45%;
+    /* width: 45%; */
     aspect-ratio: 2/1;
 }
 
 .info,
 .sign-up {
-    background-color: #eee;
+    background-color: #fff;
 }
 
 .info {
     text-align: center;
-    padding: 3rem 20% 6rem 20%;
+    padding: 4rem 20% 8rem 20%;
 }
 
 .info h2 {
+    color: #1F2937;
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 800;
 }
 
 .images {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 3rem;
 }
 
@@ -134,27 +135,33 @@ a {
 }
 
 img {
-    min-height: 10rem;
-    min-width: 10rem;
-    border: .25rem solid #3882f6;
+    min-height: 11rem;
+    min-width: 11rem;
+    aspect-ratio: 1/1;
+    border: .3rem solid #3882f6;
     border-radius: 1rem;
-    margin: .5rem;
+    margin-bottom: .25rem;
 }
 
 .image-subtext {
     color: #7c838b;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .card {
+    color: #1F2937;
     background-color: #e5e7eb;
-    padding: 6rem 25% 5rem 25%;
+    padding: 8rem 25% 8rem 25%;
 }
 
 .quote {
+    color: #1F2937;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
+    margin-bottom: .5rem;
+    
 }
 
 .author {
@@ -163,3 +170,31 @@ img {
     text-align: end;
 }
 
+.sign-up {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 0.75rem;
+    padding: 3rem 14%;
+}
+
+.container-left h3 {
+    font-size: 24px;
+}
+
+.container-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: .5rem
+}
+
+.container-right button {
+    border: .15rem solid #fff
+}
