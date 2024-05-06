@@ -18,15 +18,14 @@ body {
 .card,
 .sign-up,
 .footer {
-    flex: auto;
     padding: 0 15%;
 }
 
 .header,
 .hero,
 .footer {
+    color: #f9faf8;
     background-color: #1F2937;
-    color: #f9faf8
 }
 
 .header {
@@ -34,7 +33,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    column-gap: 6rem;
+    column-gap: 3rem;
     row-gap: 1rem;
     padding-top: 1rem;
 }
@@ -45,13 +44,17 @@ body {
 }
 
 ul {
-    font-size: 18px;
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 2rem;
     row-gap: 1rem;
+    font-size: 18px;
+    list-style: none;
+}
+
+li {
+    flex: 1 0 auto;
 }
 
 a {
@@ -199,4 +202,12 @@ img {
 
 .container-right button {
     border: .15rem solid #fff
+}
+
+.footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
