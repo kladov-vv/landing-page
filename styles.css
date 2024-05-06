@@ -177,6 +177,8 @@ img {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
