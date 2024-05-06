@@ -123,19 +123,21 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
+    margin-bottom: 3rem;
 }
 
 .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
-    margin-top: 3rem;
 }
 
 .image {
-    flex: initial;
+    flex: none;
     max-width: min-content;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 img {
@@ -144,13 +146,13 @@ img {
     aspect-ratio: 1/1;
     border: .3rem solid #3882f6;
     border-radius: 1rem;
-    margin-bottom: .25rem;
 }
 
 .image-subtext {
     color: #7c838b;
     font-size: 18px;
     font-weight: 500;
+    margin-top: .25rem;
 }
 
 .card {
