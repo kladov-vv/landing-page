@@ -185,12 +185,17 @@ img {
     display: flex;
     flex-wrap: wrap;
     row-gap: 1rem;
+    column-gap: 3rem;
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
     background-color: #3882f6;
     border-radius: 0.75rem;
     padding: 3rem 14%;
+}
+
+.container-left {
+    flex: 100 1 auto;
 }
 
 .container-left h3 {
@@ -203,7 +208,15 @@ img {
     margin-top: .5rem
 }
 
+.container-right {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container-right button {
+    flex: none;
     border: .15rem solid #fff
 }
 
